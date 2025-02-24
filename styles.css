@@ -1,0 +1,275 @@
+body
+{
+  background: url(FrontPic8.png) no-repeat center ;
+  background-color: black;
+  background-size: auto;
+  background-position-y: 0;
+  padding-top: 70px;
+}
+
+.container 
+{
+  max-width: 90%; 
+}
+
+.pic1
+{
+  width: 100px
+}
+
+.upper
+{
+  padding-left: 2%
+}
+
+.UserPic
+{
+  border-radius: 5px;
+  width: 30px;
+}
+
+.profile-pic 
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  opacity: 90%;
+}
+
+.dropdown-item i 
+{
+  margin-right: 10px;
+}
+
+.dropdown-item:hover 
+{
+  background-color: transparent !important;
+  text-decoration: underline;
+}
+
+.navbar 
+{
+  transition: background-color 0.5s ease;
+  background-color: rgba(0, 0, 0, 0); /* Transparan di awal */
+}
+
+.navbar.scrolled 
+{
+  background-color: black !important; /* Hitam saat discroll */
+}
+
+.MainPic
+{
+  /* position: absolute; */
+  z-index: -1;
+  width: 1850px;
+}
+
+.MovieName
+{
+  width: 600px;
+  position: absolute;
+  top:180px;
+  left:50px;
+}
+
+.buttn1
+{
+  position: absolute;
+  top: 420px;
+  left: 220px;
+}
+
+.buttn2
+{
+  position: absolute;
+  top: 420px;
+  left: 330px;
+}
+
+.row1
+{
+  position: absolute;
+  top: 550px;
+text-align: center;
+font-size: 7rem;
+}
+
+.zoom
+{
+  transition: transform .4s ease; /* Animation */
+}
+
+.zoom:hover
+{
+border-radius: 10px;
+transform: scale(1.1);
+}
+
+.item
+{
+  border-radius: 10px;
+}
+
+.r-text
+{
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight:bold;
+  position: absolute;
+  left: 60px;
+}
+
+.fir
+{
+  top: 580px;
+}
+
+.sec
+{
+  top: 860px;
+}
+
+.thi
+{
+  top: 1150px;
+}
+
+.row2
+{
+position: absolute;
+top: 640px;
+text-align: center;
+font-size: 7rem;
+}
+
+.row3
+{
+  position: absolute;
+  top: 730px;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.row4
+{
+  position: absolute;
+  top: 820px;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.fou
+{
+  top: 1440px;
+}
+
+.row5
+{
+  position: absolute;
+  top: 910px;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.fif
+{
+  top: 1730px;
+}
+
+
+#footer {
+  background-color: black;
+  color: #b3b3b3;
+  padding: 200px;
+  margin-top: 950px;
+}
+
+#footer a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#footer a:hover {
+  color: white;
+  text-decoration: underline !important;
+}
+
+#footer .btn-outline-secondary {
+  border-color: #b3b3b3;
+  color: #b3b3b3;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+#footer .btn-outline-secondary:hover {
+  background-color: #b3b3b3;
+  color: black;
+}
+
+#footer p {
+  font-size: 14px;
+}
+
+#footer .social-icons a {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Pastikan overlay selalu di atas */
+}
+
+.video-overlay.active {
+  display: flex;
+}
+
+.video-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background: black;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+button.close-button {
+  position: absolute;
+  top: 10px; /* Posisikan agar terlihat */
+  right: -100px;
+  background: white;
+  color: black;
+  font-family: Trebuchet MS;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: 1px solid black;
+  border-radius: 22px;
+  cursor: pointer;
+  z-index: 10000; /* Pastikan tombol tidak tertutup */
+  pointer-events: auto; /* Pastikan tombol bisa diklik */
+}
+
+button.close-button:hover {
+  background: lightgray;
+}
+
+button.close-button:active {
+  transform: scale(0.95);
+}
+
